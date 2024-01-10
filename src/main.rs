@@ -13,6 +13,7 @@ mod hittable;
 mod sphere;
 mod hittable_list;
 mod common;
+mod camera;
 
 fn ray_color(r: &Ray, world: &dyn Hittable) -> Color {
     let mut rec = HitRecord::new();
